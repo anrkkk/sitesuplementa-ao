@@ -1,0 +1,1186 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Teachers:ital,wght@0,400..800;1,400..800&family=Varela&display=swap');
+:root{
+   --color-neutral-0:#0e0c0c;
+   --color-neutral-10:#171717;
+   --color-neutral-30:#a8a29e;
+   --color-neutral-40:#f5f5f5;
+   
+}
+o
+
+
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+ma#{
+   height: 600px;
+
+   width: 500px;
+ 
+
+
+}
+
+* {
+  
+    font-family: '#ter', sans-serif;
+  marg#: 0;
+  padd#g: 0;
+  box-siz#g: border-box;
+  letter-spac#g: 1px;
+}
+#tegral
+
+footer{
+   width: 100%;
+   color: var(--color-neutral-40);
+}
+#footer_content{
+      background-color: var(--color-neutral-10);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      padd#g: 3rem 3.5rem;
+      top: 200px;
+}
+#footer_contacts{
+   marg#-bottom: 0.75rem;
+}
+#footer_social_media {
+   display: flex;
+   gap: 2rem; 
+   marg#-top: 1.5rem;
+}
+
+.footer-l#k {
+   display: flex;
+   align-items: center; 
+   justify-content: center; 
+   height: 2.5rem;
+   width: 2.5rem;
+   color: var(--color-neutral-40);
+   border-radius: 50%;
+   transition: all 0.4s;
+}
+
+.footer-l#k i {
+   font-size: 1.25rem;
+}
+
+.footer-l#k:hover {
+   opacity: 1,0;
+}
+
+#instagram {
+   position: relative;
+   background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+   font-size: 30px;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+   left: 1400px;
+   top: -250px;
+    border-radius: 50%;
+    transition: all 0.4s;
+   
+}
+
+
+#facebook {
+   position: relative;
+   font-size: 30px;
+   background-color: #4267b3;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    left:1465px;
+    top: -305px;
+
+}
+
+#whatsapp {
+   position: relative;
+  font-size: 30px;
+   background-color: #25d362;
+   border-radius: 50%;
+   width: 3.5rem;
+   height: 3.5rem;
+   display: flex;
+ justify-content: center;
+   align-items:center;
+   left: 1530px;
+   top: -360px;
+}
+.footer-list{
+   gap: 0.75rem;
+  list-style: none;
+  
+
+}
+.footer-list .footer-l#k {
+   color: var(--color-neutral-30);
+   transition: all 0.4s;
+list-style: none;
+text-decoration: none;}
+   
+   .footer-list .footer-link:hover{
+      color: purple;
+      transition: 1rem;
+   }
+#footer_subscribe{
+   display: flex;
+   flex-direction:column;
+}
+#footer_subscribe p{
+   color: var(--color-neutral-30)
+}
+#email:hover{
+   color: var(--color-neutral-30);
+   
+}
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+
+   }
+   #input_group button{
+      background-color:rebeccapurple;
+      width: 5rem;
+      height: 3rem;
+   
+   }
+   .car {
+      height: 130px;
+      position: absolute;
+      top: 50px;
+    
+      left: 0; 
+      right: 0;
+      margin: auto; 
+      display: flex;
+      justify-content: center;
+  }
+  
+  .btn-light:hover{background-color: purple;
+   color: aliceblue;
+   transition: 2rem;
+
+  }
+
+ 
+      
+p{
+   font-family: "Open Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 10px;
+   font-style: normal;
+  
+
+}
+#credit-card{
+   position: relative;
+   top: -10px;
+   left: 170px;
+}
+#creditcardinf{
+position: relative;
+font-family: "Lato", sans-serif;
+font-weight: 5000;
+font-style: normal;
+font-size: 35px;
+top: -17px;
+left: 170px;
+}
+#freteh1{
+position: relative;
+   font-family: "Lato", sans-serif;
+font-weight: 5000;
+font-style: normal;
+font-size: 35px;
+left: 800px;
+top: -110px;
+}
+#frete{
+   position: relative;
+   left: 800px;
+   top: -100px;
+}
+
+   
+   
+      
+   
+
+    
+
+
+
+#growthcreatina{
+   position: relative;
+   width: 450px;
+}
+
+#psyimg{
+   position: relative;
+   width: 200px;
+   left: 90px;
+}
+
+#glutamina{
+   position: relative;
+   left:-100px;
+   width: 400px;
+   height: 500px;
+   top: -490px;
+}
+#drpeanutcard{
+   position: relative;
+   left: 60px;
+   top: -490px;
+   width: 400px;
+   height: 500px;
+}
+#nutratacreatina{
+   position: relative;
+   left: 60px;
+   top: -560px;
+   height: 599px;
+   width: 400px;
+}
+
+
+#nutrataimg{
+   position: relative;
+   width: 290px;
+   left: 50px;
+}
+#imggrowth{
+   position: relative;
+   left: 44px;
+   width: 300px;
+   height: 360px;
+   
+}
+
+
+#imgdarkness{
+   width: 300px;
+   height: 320px;
+   position: relative;
+   left: 30px;
+}
+
+#carddarkness{
+   position: relative;
+   left: 220px;
+   top:650px;
+   width: 395px;
+   height: 580px;}
+ 
+   
+    .card-body{
+
+      width: 170px;
+    }
+    
+    .card-img-top3{
+      position: relative;
+      width: 140px;
+      left: 200px;
+   
+
+      
+    }
+   
+    #drpeanutimg{
+      position: relative;
+      left: 40px;
+    }
+    
+    #Probiotica{
+      position: relative;
+      left: 660px;
+      height: 600px;
+      width:400px;
+    }
+      
+#growth-creatina{
+   position: relative;
+   width: 400px;
+   height: 600px;
+   top: -560px;
+   left: -100px;
+}
+
+   
+    .card-img-topinte{
+      position: relative;
+      width: 170px;
+      left: 30px;
+    
+      height: 230px;
+      
+    }
+    #integral{
+      position: relative;
+      left: 800px;
+      width: 240px;}
+      
+      
+      #maxcard1{
+         position: relative;
+         left: 100px;
+         width: 230px;
+      }
+    #adaptogemimagem{
+      position: relative;
+      left: 30px;
+      width: 170px;
+      height: 220px;
+    
+    }
+    
+    .card-img-top2{
+      position: relative;
+      width: 180px;
+      left: 0px;
+    }
+    .card-body2{
+      width: 500px;
+   height: 200px;}
+      
+      .card-body2{
+         width: 158px;
+      }
+      .card-body{
+         width: 240px;
+      }
+      .card-body3{
+         width: 200px;
+       height:200px;
+      }
+      .card:hover{
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        
+      }
+      .card-img-top{
+         position: relative;
+         width: 180px;
+         left: 65px;
+      }
+      .card-body{
+         height: 188px;
+      }
+  
+      #in{
+        background-color:#f5f5f5;
+         height: 200px;
+         max-width: 2000px;
+         color: black;
+      }
+      .fa-credit-card{position: relative;
+         left: 100px;
+         font-size: 40px;
+         top: 30px;
+      }
+      .fa-truck{position: relative;
+         left: 670px;
+         top: 30px;
+         font-size: 40px;
+      }
+      .fa-pix{
+         position: relative;
+         left: 1000px;
+         top: 30px;
+         font-size: 40px;
+      }
+      
+        .card-buttons {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .card:hover .card-buttons {
+            opacity: 1;
+        }
+        .banner{
+         position: relative;
+         left: 200px;
+        }
+        #emailbtn{
+         color: white;
+        }
+      #navbarfooter{
+         background-color: black;
+         text-decoration: none;
+         list-style:none;
+         padding: 15px 20px;
+      }
+      #navbarfooter ul li{
+         padding: 10px;
+      }
+      .maxwheyj{
+         position: relative;
+         width: 300px;
+         top: 20px;
+         left: 150px;
+      }
+     ul{
+      list-style-type: none;
+     }
+     .maxwhey{position: relative;
+     width: 300px;
+     top: -200px;
+     left: 150px;
+     }
+     .dux{
+      position: relative;
+      width: 300px;
+      left: 200px;
+      top: -200px;
+     }
+     .creat{   
+      position: relative;
+      width: 350px;
+      top: -200px;
+      left: 200px;
+     }
+     .creatinagrowth{
+      position: relative;
+      width: 340px;
+      top: 100px;
+      left: 200px;
+     }
+     .cretinanutrata{
+      position: relative;
+      width: 300px;
+      left: 200px;
+      top: 100px;
+
+     }
+     .strapgrowth{
+      position: relative;
+      width: 300px;
+      left: 200px;
+      top: -200px;
+     }
+     .wheymaxtabela{
+      position: absolute;
+      left: 300px;
+     }
+     .probioticainfos{
+      position: relative;
+      width: 500px;
+      left: 730px;
+      top: 200px;
+     }
+     .probioticabaneer{
+      position: relative;
+      top: -340px;
+      left: 15 0px;
+      height: 250px;
+     }
+     .creatinagrowthbanner{
+      position: relative;
+      top: 600px;
+     }
+     .creatinagrowthnutri{
+      position: relative;
+      top: 1025px;
+      left: -500px;
+
+     }
+     .creatinagrowthinfo{
+      position: absolute;
+      top: 1050px;
+      right: 150px;
+      width: 1000px;
+     }
+     .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;
+  }
+  .maxbanner{
+   position: relative;
+   top: 100px;
+   left: 700px;
+   width: 500px;
+  }
+  .infowheymaxpage1{
+  position: relative;
+  left: 600px;
+  top: 500px;
+  }
+  .page2{
+   position: relative;
+   top:650px;
+   padding: 200px;
+   left: 400px;
+  }
+  .page3{
+   position: relative;
+   padding: 200px;
+   top: -560px;
+   left: 400px;
+  }
+  #darknessnut{
+   position: relative;
+   padding: 400px;
+   max-width: 1400px;
+   
+  }
+  .creatinagrowthinfonutricional{
+   position: relative;
+   top: 00px;
+   left: 500px;
+  }
+  .munhequeira{
+   position: relative;
+   width: 300px;
+   left: 200px;
+   top: -200px;
+
+  }
+  #munhequeira2{
+   position: relative;
+   left: 400px;
+
+  }
+  #munhequeira3{
+   position: relative;
+   top: 400px;
+   left: -200px;
+  }
+  .addpadding{
+   position: relative;
+   padding: 30px;
+   left: 40px;
+  }
+  .btn-success{
+position: relative;
+left: 70px;
+top: -30px;
+  }
+  .semelhantes{
+   position: relative;
+   padding: 400px;
+   top: 300px;
+  }
+  .cardrecomentationswheysmove{
+   position: relative;
+   padding: 400px;
+   top: -810px;
+  }
+  .cardimagemmax{
+   position: relative;
+   top:-25px;
+   width: 200px;
+  }
+  .addpadding2{
+   position: relative;
+   top: -22px;
+   padding: 30px;
+   left: 40px;
+  }
+  .meio{
+   position: relative;
+   top: -450px;
+   left: 750px;
+  }
+  .strapred{
+   width: 370px;
+   position: relative;
+   left: 200px;
+   top: -200px;
+  }
+  .psy{
+
+   width: 180px;
+   position: relative;
+   left: 30px;
+  }
+  .psywebpage{
+   position: relative;
+   width: 330px;
+   left: 150px;
+   top: 100px;
+  }
+  #infopsy{
+   position: relative;
+  padding: 150px;
+  }
+  #psinutri{
+   top: 300px;
+   left: 400px;
+   position: relative;
+  }
+  #psychotic{
+   position: relative;
+   width: 400px;
+   height: 510px;
+   top: 120px;
+   left: 220px;
+
+  }
+ 
+.tabela{
+   position: relative;
+   top:500px ;
+   left: -500px;
+   width: 500px;
+}
+.faixadejoelho{
+   position: relative;
+   width: 400px;
+   left: 200px;
+   top: -200px;
+}
+.faixadejoelhoazul{
+   position: relative;
+   width: 500px;
+   left: 150px;
+   top: -200px;
+}
+#fotos2{
+position: relative;
+   padding: 300px;
+   top: -200px;
+   
+}
+#foto3{
+   position: relative;
+   padding: 300px;
+   top: -900px;
+}
+.fotofaixa4{
+   position: relative;
+   padding: 300px;
+   top: -1700px;
+}
+.faixaindex{
+   width: 170px;
+   top:35px;
+   left: 50px;
+   position: relative;
+}
+.card-faixa{
+   position: relative;
+   height: 215px;
+   top: 100px;
+}
+
+#faixamaxcustom{
+   position: relative;
+   top: -525px;
+   width: 400px;
+   height:600px;
+   left: 60px; 
+   
+}
+.munhequeiraimg{
+   position: relative;
+   width: 195px;
+}
+#cardmunhequeira{
+   position: relative;
+   height: 610px;
+   width: 400px;
+   top:-530px;
+   left: 1100px;
+
+
+}
+.glutaminaintegral{
+   position: relative;
+   width: 200px;
+   left: 30px;
+}
+.gluinte{
+   width: 360px;
+   position: relative;
+   left: 170px;
+   top: -200px;
+}
+.imgdrpeanut{
+   width: 230px;
+   height: 250px;
+   position: relative;
+   top: -30px;
+   left: 30px;
+}
+
+#peanutbutter{
+   position: relative;
+   left: 150px;
+   top:60px;
+   width: 370px;
+}
+#bannerdr{
+   position: relative;
+   left: 500px;
+   width: 1200px;
+}
+#infonutridrpeanut{
+   top: 400px;
+   position: relative;
+   left: -400px;
+}
+#maxcard1{
+   height: 380px;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+.navbar {
+   background-color: black;
+   height: 120px;
+}
+
+ 
+
+.euaflag{
+   position: relative;
+   width: 30px;
+   top: -100px;
+   left: 1000px;}
+
+.bflag{
+   position: relative;
+   width: 30px;
+   top: -100px;
+   left: 1000px;
+
+}
+#cart-shopping{
+   position: relative;
+   font-size: 30px;
+   color: white;
+   top: -90px;
+   left:1200px;
+}
+
+.navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   left:-450px;
+   top: 30px;
+}
+
+.navbar ul li {
+   display: inline;
+   position: relative; 
+}
+
+.navbar ul  a {
+   display: block;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.dropdown-menu {
+   display: none;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   background-color:var(--color-neutral-10);
+}
+#ip{
+   position: relative;
+   top: -100px;
+}
+
+.dropdown-menu a {
+   display: block;
+   padding: 10px;
+   color: green;
+   text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+   background-color: var(--color-neutral-30);
+}
+
+.dropdown:hover .dropdown-menu {
+   display: block;
+}
+.search{
+   position: relative;
+   left: 500px;
+   top: -30px;
+   width: 500px;
+   height: 35px;
+   left: 400px;
+}
+#input{
+   position: relative;
+   top: -100px;
+   width: 600px;
+   left: 400px;
+}
+.logo{
+   position: relative;
+   left: 00px;
+   top: -170px;
+}
+
+#info-cart{
+   display: flex;
+   flex-direction: column;
+   padding: 100px;
+}
+.item{
+   position: relative;
+   left: 200px;
+   top: 50px;
+}
+.price{
+   position: relative;
+   left: 400px;
+   top: 14px;
+}
+.quantidade{
+   position: relative;
+   left: 600px;
+   top: -20px;
+}
+
+
+
+.botaostrap{
+   position: relative;
+   top: -10px;
+}
+#cardstrap{
+ position: relative;
+ left: -980px;
+ top: 80px;
+ width: 400px;
+ height: 600px;
+}
+.cart-img{
+   position: relative;
+   width: 100px;
+   left: 200px;
+   top: 200px;
+}
+
+
+.option1{
+   position: relative;
+   left: 300px;
+   top: 100px;
+}
+.cart-shopping{
+   position: relative;
+   top: 00px;
+   left: -10px;
+}
+
+.price-cart{
+   position: relative;
+   color: red;
+   font-size: 30px;
+   top: 40px;
+   left: 650px;
+   font-family: "Madimi One", sans-serif;
+
+}
+.elemento{
+   position: relative;
+   color: red;
+   font-size: 30px;
+   top: 40px;
+   left: 650px;
+   font-family: "Madimi One", sans-serif;
+
+}
+.quantidade{
+   position: relative;
+   width: 40px;
+   top:-10px;
+   left: 450px;
+}
+.quantidade2{
+   position: relative;
+   width: 40px;
+   top: 100px;
+   left: 460px;
+   top: -10px;
+}
+#cart-changes{
+   position: relative;
+   top: 600px;
+}
+#class-cart{
+   
+   position: relative;
+   left: 200px;
+   top: -100px;
+   left: -0px;
+}
+
+#cart-img2{
+   position: relative;
+   top: 200px;
+   width: 100px;
+}
+.btn-danger{
+   position: relative;
+   left: 800px;
+   top: 00px;
+}
+#nutratabanner{
+   position: relative;
+   left: 400px;
+
+}
+#quantity_option{
+   position: relative;
+   top: -100px;
+   width: 60px;
+   left: -110px;
+}
+.font-product{
+   position: relative;
+   top: 150px;
+   left: 190px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 10px;
+   font-style: normal;
+ }
+ .font-product2{
+   position: relative;
+   top: 150px;
+   left: 600px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 10px;
+   font-style: normal;
+   
+ }
+ .valor-final{
+   position: relative;
+   left: 900px;
+   top: 400px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:1px;
+   font-style: normal;
+   font-size: 20px;
+   
+ }
+ .inputquantidade{
+   position: relative;
+   left: 330px;
+   top: 147px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 10px;
+   font-style: normal;
+   
+ }
+ .valor-final-text{
+   position: relative;
+   left: 895px;
+   top: 400px;
+   font-family: "Nunito", sans-serif;
+   font-optical-sizing: auto;
+   font-weight:10px;
+   font-style: normal;
+   font-size: 20px;
+ }
+ #Primary{
+   position: relative;
+   top: -40px;
+   left: 120px;
+ }
+ .cart:hover{
+   background-color: purple;
+   color: aliceblue;
+   transition: 2rem;
+
+ }
+#growthcreatina{
+   position: relative;
+   width: 230px;
+   top: 40px;
+   left: 40px;
+}
+#adpt{
+   position: relative;
+   left: 500px;
+   width: 240px;
+   height: 382px;
+   top: -380px;
+}
+#Finalizar{
+   position: relative;
+   left: 970px;
+   width: 300px;
+   top: 500px;
+
+}
+.duxoptionsflavor{
+   left:200px;
+
+}
+
+.btn-l{
+   background-color: #7f37c9;
+   color:white;
+}
+.btn-l:hover{
+   background-color:purple;
+   color: white;
+}
+#wheytitle{
+   position: relative;
+   top: 1500px;
+   left: 350px;
+}
+
+.duxoptionswheight{
+   position: relative;
+   left: 300px;
+}
+#desc{
+   position: absolute;
+   top: 2000px;
+  
+
+   
+}
+
+
+
+
+
+
+@media screen and (-width: 768px){}
+
+
+#carddarkness{
+   
+}
+
+#maxcard1{
+   position: relative;
+   left: 200px;
+   height: 600px;
+   width: 400px;
+}
+.card-body{
+   position: relative;
+   left: -10px;
+}
+#adaptogemimagem{
+   position: relative;
+   width: 300px;
+   height: 390px;
+   left: 50px;
+   top: -00px;}
+
+.card-img-top2{
+   position: relative;
+   width: 300px;
+}
+
+
+  
+
+   
+ 
+  
+
+#adpt{
+   position: relative;
+   left: 850px;
+   width: 350px;
+   top:-600px;
+   width: 400px;
+   height: 600px;
+}
+.banner{
+   position: relative;
+   left: 500px;
+}
+#information
+{
+   position: relative;
+left: 300px;
+}
+@media screen and (max-width: 480px) {
+   #freteh1{
+      width: 30%;
+    }
+  
+}
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+   #freteh1{
+      width: 30%;
+    }
+}
+@media screen and (min-width: 1441px) {
+  #adpt{
+   position: relative;
+   left: 500px;
+  }
+   #maxcard1{
+      position: relative;
+   left: -100px;}
+
+   #information{
+      left: 20%;
+   }
+}
+   

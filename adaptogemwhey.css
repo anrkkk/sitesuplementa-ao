@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Varela&display=swap');
+wheybox
+main{
+    height: 00vh;
+}
+.box{
+    position: relative;
+    max-width: 200px;
+    left: 100px;
+}
+
+.texto-compra{
+    font-family: "Ojuju", sans-serif;
+    position: relative;
+    left: 500px;
+    top: -300px;
+    width: 200px;
+}
+
+
+#texte{
+    color: var(--color-neutral-0);
+    font-family: "Varela", sans-serif;
+    font-weight: 100px;
+    font-style: normal;
+    font-weight: 200px;
+    font-style: normal; 
+    position: relative;
+    left: 70px;
+    top: -640px;
+
+}
+.btn-warning{
+    position: relative;
+    left: 750px;
+    top: -350px;
+    color: white;
+    height: 70px;
+    width: 200px;
+}
+.btn-warning:hover{
+    background-color:orange;
+    color: aliceblue;
+   transition: 2rem;
+}
+#duxoptionsflavor{
+    position: relative;
+    left: 750px;
+    top: -560px;
+    width: 450px;
+    height: 45px;
+}
+#duxoptionswheight{
+    position: relative;
+    left: 295px;
+    top: -490px;
+    width: 450px;
+    height: 45px;
+}
+#valordux{
+    color: var(--color-neutral-0);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    position: absolute;
+    margin-top:-50px;
+    left: 700px;
+    top: 185px;
+    font-size: 55px;
+    color: rgb(221, 4, 4);
+    
+   
+  
+    
+  
+    
+}
+#boxinfo{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: relative;
+    top: -420px;
+    left: 530px;
+}
+#de1{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    position: relative;
+    top: -680px;
+    left: 700px;
+    font-size: 21px;
+}
+
+    .imgadapt{
+        position: relative;
+        top: -150px;
+        width: 250px;
+        left:220px;
+       
+    }
+    #redprice{
+        position: relative;
+        font-family: "Madimi One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    top: -750px;
+    left: 700px;
+    }
+  #wheybox{
+    position: relative;
+    right: -500px;
+    top: -220px;
+    
+  }
+  #infowhey{
+    position: relative;
+    top: 300px;
+    right: 150px;
+  }
+  #desctasty{
+    position: absolute;
+    top: 2500px;
+    
+  }
+  
+  #tastywheytitle{
+    color: var(--color-neutral-0);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    position: relative;
+    right: -400px;
+    top: 650px;
+
+  }
+  #mainwheystasty{
+    position: relative;
+    top: 800px;
+  }
+ 
